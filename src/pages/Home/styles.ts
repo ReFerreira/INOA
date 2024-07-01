@@ -1,11 +1,10 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  display: flex;
-  height: 100%;
-`;
-
-export const Content = styled.div`
+  height: 100vh;
+  width: 100vw;
   display: grid;
-  grid-template-columns: 250px 1fr;
+  grid-template-rows: 180px 1fr;
+  row-gap: 10px;
+  column-gap: 10px;
 `;
